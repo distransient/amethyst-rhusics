@@ -9,7 +9,7 @@ use super::bundle::BoxSimulationBundle;
 pub type BoxSimulationBundle2 =
     BoxSimulationBundle<Primitive2<f32>, Aabb2<f32>, Basis2<f32>, f32, f32>;
 
-/// Box simulation for 2D
+/// Box simulation for 3D
 #[allow(dead_code)]
 pub type BoxSimulationBundle3 =
     BoxSimulationBundle<Primitive3<f32>, Aabb3<f32>, Quaternion<f32>, Vector3<f32>, Matrix3<f32>>;
